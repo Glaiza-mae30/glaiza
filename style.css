@@ -1,6 +1,4 @@
-/* ==========================================
-   ORIGINAL PURPLESIP STYLE (NO CHANGES)
-   ========================================== */
+
 :root {
     --bg: #05000a;
     --primary: #9d4edd;
@@ -30,7 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--bg); /* Tinanggal ang URL, pinalitan ng solid theme color */
+    background: var(--bg); 
 }
 
 .auth-card {
@@ -231,9 +229,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* ==========================================
-   ATTENDANCE SYSTEM STYLE (SOFTNET)
-   ========================================== */
+
 :root {
     --purple: #4a148c;
     --purple-light: #7b1fa2;
@@ -283,9 +279,6 @@ body {
 
 .sec-badge { font-size: 0.75rem; color: var(--purple); font-weight: bold; background: #f3e5f5; padding: 4px 10px; border-radius: 5px; }
 
-/* ==========================================
-   ADDED DESIGN UPDATES (RESTORATIONS)
-   ========================================== */
 
 .search-container {
     max-width: 600px;
@@ -370,9 +363,7 @@ body {
 .attend-btn { background: var(--purple); border: 2px solid var(--purple-light); }
 .pos-btn { background: var(--primary); border: 2px solid var(--accent); }
 
-/* ==========================================
-   CONTACT SECTION
-   ========================================== */
+
 .contact-card-wrap {
     max-width: 900px;
     margin: 40px auto;
@@ -448,9 +439,6 @@ body {
 
 .back-btn { width: 100%; padding: 14px; background: rgba(157, 78, 221, 0.1); color: #e0aaff; border: 1px solid rgba(157, 78, 221, 0.4); border-radius: 15px; font-weight: 700; font-size: 0.8rem; letter-spacing: 1px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 12px; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); text-transform: uppercase; backdrop-filter: blur(5px); margin-bottom: 20px; }
 
-/* ==========================================
-   RESPONSIVE DESIGN (MAKING IT WORK IN ANY DEVICE)
-   ========================================== */
 @media (max-width: 1024px) {
     .main-container { width: 90%; height: auto; min-height: 600px; flex-direction: column; position: relative; top: 20px; left: 0; transform: none; margin: 20px auto; }
     .sidebar { width: 100%; flex-direction: row; justify-content: space-around; padding: 20px; }
@@ -466,3 +454,4 @@ body {
     .input-grid { grid-template-columns: 1fr; }
     .login-premium-card { min-width: 90%; }
 }
+
